@@ -1,0 +1,617 @@
+*{
+    margin:0;
+    padding:0px;
+    position:relative;
+}
+
+.cap {
+
+    width: 600px;
+    margin: auto;
+}
+
+
+
+.cara{
+    height: 660px;
+    width: 510px;
+    background: rgb(245, 221, 200);
+    border-radius: 100% / 60% 60% 110% 110%;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.barbeta{
+
+}
+
+/* ---------- CABELL -----------------*/
+
+.cabell{
+    height: 200px;
+    height: 510;
+    background: rgb(60, 45, 31);
+    border-radius: 200px 200px 0 0;
+    z-index: -50;
+    text-align: center;
+}
+
+
+.costats{
+    width: 50px;
+    height: 180px;
+    background:rgb(60, 45, 31);
+    top: 200px;
+    border-radius: 0 0 50% 0;
+    margin: 0 0px 0 0px;
+    border-radius: 0 0 50% 0;
+
+    z-index: 900000000;
+    position: absolute;
+}
+
+
+.costats.cs1{
+  left:0;
+  float: left;
+
+}
+
+
+.cabell .cerrell.w1 {
+    width: 200px;
+    height: 175px;
+    background: rgb(60, 45, 31);
+    border-radius: 0px 0px 100px 0 / 0 0 200px 0;
+    top: -40px;
+    left: -60px;
+    display: inline-block;
+}
+
+.cabell .cerrell.w2 {
+    width: 295px;
+    height: 175px;
+    background: rgb(60, 45, 31);
+    border-radius: 0px 0px 0px 50px / 0 0 0px 100px;
+    top: -219px;
+    left: 100px;
+    display: inline-block;
+    z-index: 100000000000000000000000000000000000;
+}
+
+.cabell .cerrell.w3 {
+    width: 175px;
+    height: 175px;
+    background: transparent;
+    border-radius: 0px 0px 0px 50px / 0 0 0px 100px;
+    top: -40px;
+    left: -65px;
+    display: inline-block;
+    box-shadow: -5px 0 0 rgb(60, 45, 31);
+    
+}
+
+
+
+.costats.cs2{
+    transform: scaleX(-1);
+    right: 0;
+}
+
+.melena {
+    width: 560px;
+    height: 900px;
+    background: rgb(60, 45, 31);
+    position: absolute;
+    top:0;
+    left:20px;
+    border-radius: 100% / 60% 60% 0% 0%;
+}
+
+
+.front{
+    height: 100px;
+    z-index: 2;
+    
+}
+
+
+
+/* -------------- MIRADA ------------- */
+
+.cejas{
+    height: 10px;
+    width: 135px;
+    background: rgb(60, 45, 31);
+    bottom:20px;
+    margin:0px 30px 0 70px;
+    display:inline-block;
+
+
+}
+
+.cejas.c1{
+    border-radius: 70px 100px 5px 40px;
+    transform: skew(45deg);
+}
+
+.cejas.c2{
+    border-radius: 70px 100px 5px 40px;
+    transform: skew(-45deg);
+}
+
+.pesta{
+    height: 120px;
+    width: 158px;
+    background: black;
+    display: inline-block;
+    margin:0 47px;
+    top: -120px;
+    text-align: center;
+    z-index: 150px;
+    clip-path: polygon(94% 59%, 76% 37%, 55% 32%, 23% 39%, 9% 54%, 20% 63%, 29% 48%, 54% 39%, 76% 44%);
+
+}
+
+.pesta.p1{
+    clip-path: polygon(94% 59%, 76% 37%, 55% 32%, 23% 39%, 9% 54%, 20% 63%, 29% 48%, 54% 39%, 76% 44%);
+}
+
+.pesta.p2{
+    transform: scaleX(-1)
+}
+
+
+        :hover.serio{
+            top: -10px;
+        }
+        .pastilla{
+            height: 10px;
+            width: 90px;
+            background-color: rgb(245, 221, 200);
+            position: absolute;
+            left: 210px;
+            top: 218px;
+            z-index: 100000000000000;
+        }
+
+            .boca.c{
+                height: 7px;
+                width: 15px;
+                background: transparent;
+                display: inline-block;
+                border-radius: 50%;
+                box-shadow: 0px 1px 0 rgb(155, 120, 90);
+                margin: 0px 0px;
+                display: inline-block;
+            }
+
+            .boca.li{
+                height: 5px;
+                width: 30px;
+                background: transparent;
+                border-radius: 50%;
+                box-shadow: 0px 1px 0 rgb(155, 120, 90);
+                display: inline-block;
+            }
+
+                
+        .lunar{
+            height: 3px;
+            width: 3px;
+            background: rgb(35, 32, 28);
+            display: inline-block;
+            top: 90px;
+            left: -400px;
+            border-radius: 100%;
+
+        }
+
+
+.mirada{
+    height: 100px;
+    text-align: center;
+    
+}
+
+.mirada .ull{
+    height: 70px;
+    width: 130px;
+    background: rgb(255, 248, 237);
+    display:inline-block;
+    margin:0px 50px; 
+    box-shadow: 0px -6px 0px ;
+    transform: scale(90%);
+}
+
+.mirada .o1{
+    border-radius: 70px 100px 5px 40px;
+}
+
+.mirada .o2{
+    border-radius: 100px 70px 40px 5px;
+    transform: rotate(2deg) scale(90%);
+}
+
+.mirada .ull .iris{
+    height: 70px;
+    width: 70px;
+    background: rgb(58, 39, 11);
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/*---------HOVER---------*/
+
+:hover.mirada .ull .iris{
+    height: 70px;
+    width: 70px;
+    background: rgb(200, 17, 157);
+    margin: 0 auto;
+    border-radius: 50%;
+    animation: 0,4ms glitch infinite;
+    
+}
+
+@keyframes glitch {
+    0%{
+        box-shadow: rgb(255, 0, 106) -4px 0, cyan 4px 0;
+    }
+    50%{
+        box-shadow: rgb(255, 0, 106) 4px 0, cyan -4px 0;
+    }
+    100%{
+        box-shadow: rgb(255, 0, 106) -4px 0, cyan 4px 0;
+    }
+}
+
+/*---------HOVER---------*/
+
+.mirada .ull .iris .brill{
+    height: 30px;
+    width: 30px;
+    background: rgb(255, 245, 230);
+    margin: 10px 0px;
+    border-radius: 50%;
+    display:inline-block;
+    z-index: 10;
+    float: left;
+    z-index: 100;
+}
+
+.mirada .ull .iris .pupila{
+    height: 32px;
+    width: 32px;
+    background: rgb(20, 12, 0);
+    margin: -30px 0px 0px 20px;
+    border-radius: 50%;
+    display:inline-block;
+    float: left;
+    z-index: 90;
+    box-shadow: 0px 0px 7px burlywood;
+}
+
+/*---------HOVER---------*/
+
+:hover.mirada .ull .iris .pupila{
+    height: 32px;
+    width: 32px;
+    background: rgb(20, 12, 0);
+    margin: -30px 0px 0px 20px;
+    border-radius: 50%;
+    display:inline-block;
+    float: left;
+    z-index: 90;
+    box-shadow: 0px 0px 7px rgb(107, 0, 94);
+    animation: 0,4ms glitch infinite;
+
+}
+@keyframes glitch {
+    0%{
+        box-shadow: rgb(255, 0, 106) -4px 0, cyan 4px 0;
+    }
+    50%{
+        box-shadow: rgb(255, 0, 106) 4px 0, cyan -4px 0;
+    }
+    100%{
+        box-shadow: rgb(255, 0, 106) -4px 0, cyan 4px 0;
+    }
+}
+
+/*---------HOVER---------*/
+
+.mirada .ull .iris .clar{
+    height: 30px;
+    width: 40px;
+    background: rgb(123, 84, 24);
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 37px;
+    box-shadow: 0 0 10px rgb(123, 84, 24);
+}
+
+/*---------HOVER---------*/
+
+:hover.mirada .ull .iris .clar{
+    height: 30px;
+    width: 40px;
+    background: rgb(255, 104, 245);
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 37px;
+    box-shadow: 0 0 10px rgb(255, 174, 247);
+}
+
+/*---------HOVER---------*/
+
+
+/* ------------ NAS ------------------------ */
+
+.nas{
+    height: 100px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.rubor{
+    width: 150px;
+    height: 130px;
+    border-radius: 50%;;
+    background: radial-gradient(coral 5%, rgb(245, 221, 200) 70%);
+    opacity: 20%;
+    display: inline-block;
+    margin: 0 51px 0 51px;
+    bottom: 30px;
+    
+}
+.lado{
+    width: 50px;
+    height: 120px;
+    background: rgb(81, 72, 54);
+    background:linear-gradient(90deg, rgb(250, 238, 227), rgb(192, 152, 119), rgb(250, 238, 227) 80%) ;
+    opacity: 20%;
+    display: inline-block;
+    top: -225px;
+    z-index: -5550000000000000000000000000;
+}
+.nas .tabique{
+    height: 120px;
+    width: 20px;
+    background: linear-gradient(rgb(245, 221, 200) , rgb(250, 238, 227) ) ;
+    margin: auto;
+    bottom: 350px;
+    border-radius: 50%;
+    z-index: -900000000;
+}
+
+.nas .ombra{
+    height: 6px;
+    width: 15px;
+    background: rgb(81, 72, 54);
+    display: inline-block;
+    margin:0 7px;
+    top: -350px;
+    left: -32px;
+    text-align: center;
+
+}
+
+.nas .ombra.n1{
+    border-radius: 100% 50% 70% 0%;
+}
+
+.nas .ombra.n2{
+    border-radius: 50% 100% 0% 70%;
+
+}
+
+.abajo{
+    height: 25px;
+    width: 58px;
+    background: rgb(192, 152, 119);
+    border-radius: 50% 50% 30% 30%;
+    opacity: 20%;
+    display: inline-block;
+    bottom: 300px;
+    margin: 0 auto;
+    top: -345px;
+    left: 32px;
+
+}
+
+
+/*-------------------BOCA------------------*/
+
+
+.bocatodo{
+    height: 100px;
+    background-color: transparent;
+    text-align: center;
+    top: -10px;
+}
+
+    .centrob{
+        text-align: center;
+    }
+        .boca.ld{
+            height: 5px;
+            width: 30px;
+            background: transparent;
+            border-radius: 50%;
+            box-shadow: 0px 1px 0 rgb(155, 120, 90);
+            display: inline-block;
+        }
+
+                /*----------HOVER---------------*/
+                :hover.boca.ld{
+                    height: 5px;
+                    width: 30px;
+                    background: transparent;
+                    border-radius: 0 0 50% 0;
+                    box-shadow: 0px 1px 0 rgb(155, 120, 90);
+                    display: inline-block;
+                }
+
+        .boca.c{
+            height: 7px;
+            width: 15px;
+            background: transparent;
+            display: inline-block;
+            border-radius: 50%;
+            box-shadow: 0px 1px 0 rgb(155, 120, 90);
+            margin: 0px 0px;
+            display: inline-block;
+        }
+
+        .boca.li{
+            height: 5px;
+            width: 30px;
+            background: transparent;
+            border-radius: 50%;
+            box-shadow: 0px 1px 0 rgb(155, 120, 90);
+            display: inline-block;
+        }
+
+                /*----------HOVER---------------*/
+                :hover.boca.li{
+                    height: 5px;
+                    width: 30px;
+                    background: transparent;
+                    border-radius: 0 0% 0% 50%;
+                    box-shadow: 0px 1px 0 rgb(155, 120, 90);
+                    display: inline-block;
+                }
+
+
+    .boca.arriba{
+        height: 5px;
+        width: 13px;
+        background: transparent;
+        border-radius: 50%;
+        box-shadow: 0px 1px 0 rgb(155, 120, 90);
+        top: -6px;
+        left: 0px;
+        display: inline-block;
+
+    }
+
+
+    .oyuelo{
+        height: 2px;
+        width: 5px;
+        background: rgb(155, 120, 90);
+        margin:0px 10px 0 10px;
+        display: inline-block;
+        text-align: center;
+    }
+    .oyuelo.pl{
+        border-radius: 100% 50% 70% 0%;
+    }
+
+    .oyuelo.pd{
+        border-radius: 50% 100% 0% 70%;
+
+    }
+
+    .inferior{
+        height: 8px;
+        width: 40px;
+        background: transparent;
+        border-radius: 50%;
+        box-shadow: 0px 1px 0 rgb(155, 120, 90);
+        left: 235px;
+        top: 20px;
+
+    }
+
+    .pintalabios{
+        height: 50px;
+        width: 120px;
+        background: rgb(255, 109, 80);
+        background: radial-gradient(coral, rgb(245, 221, 200) 70%);
+        opacity: 20%;
+        border-radius: 50%;
+        display: inline-block;
+        top: -35px;
+        z-index: -50;
+    }
+
+
+.coll{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(rgb(161, 139, 119),rgb(245, 221, 200) 40%);
+    margin: 0 auto;
+    bottom: 50px;
+    z-index: 1;
+    border-radius: 0 0 100px 100px;
+}
+
+.oreja{
+    height: 150px;
+    width: 50px;
+    background: transparent;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 170px;
+    z-index: -510000000000000;
+}
+
+.pendiente{
+    height: 10px;
+    width: 10px;
+    background: gold;
+    top: 295px;
+    border-radius: 50%;
+    left: 15px;
+    display: inline-block;
+}
+
+.pd2{
+    left: 445px;
+}
+
+
+.oreja.k1{
+    border-radius: 20px 0 0 50px / 50px 0 0 100px;
+    background: rgb(245, 221, 200);
+    left: 0px;
+
+
+}
+
+.oreja.k2{
+    border-radius: 0px 20px 50px 0 / 0 50px 100px 50px;
+    float: right;
+    background: rgb(245, 221, 200);
+    left: 460px;
+}
+
+.cuerpo{
+    height: 500px;
+    width: 750px;
+    background: rgb(114, 33, 33);
+    top: 700px;
+    left: -70px;
+    border-radius: 45% 45% 0 0;
+    position: absolute;
+
+}
+
+.sfranco{
+    transform: scale();
+}
+
+
+.arcane{
+    position: relative;
+    top: -860px;
+    opacity: 0;
+}
+
+        :hover.arcane{
+            
+        }
+
+        
